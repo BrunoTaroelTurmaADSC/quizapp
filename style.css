@@ -15,7 +15,7 @@
     --shadow: 0px 16px 40px 0px rgba(143, 168, 193, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
-    --bg-javascript: #e0fdef;
+    --bg-javascript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
@@ -23,10 +23,10 @@
 }
 
 body {
-    height: 100svh;
-    background: var(--bg-mobile) var(--bg-color);
-    background-repeat: no-repeat;
-    background-size: cover;
+height: 110svh;
+background: var(--bg-mobile) var(--bg-color);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 header {
@@ -146,8 +146,22 @@ main {
         margin-block: 81px;
     }
 
+    .tema {
+        gap: 16px;
+    }
+
     .tema img {
-        
+        width: 24px;
+    }
+
+    .tema button {
+        width: 48px;
+        height: 28px;
+    }
+
+    .tema button div {
+        width: 20px;
+        height: 20px;
     }
 
     main {
